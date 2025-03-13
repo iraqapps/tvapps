@@ -1,7 +1,7 @@
 [
     {
-        "name": "سينمانا",
-        "image": "https://img.utdstc.com/icon/56c/c04/56cc044fca039c3078b0e5ea70df9786e9f606134776e92d2a605d08dda0cc9b",
+        "name": "Cinemana TV",
+        "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/cinemana.png",
         "download": "https://example.com/app1.apk"
     },
     {
@@ -10,38 +10,38 @@
         "download": "https://www.dropbox.com/scl/fi/05lekwr0hpkjpr62sugd6/Shabakaty-TV-TV.apk?rlkey=su9av91yb64aojcpz7uuvs2yy&e=2&st=pmwf491y&dl=0"
     },
     {
-        "name": "Shabakaty TV2",
-        "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/shabakaty_tv.png",
+        "name": "CEE TV",
+        "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/cee.png",
         "download": "https://www.dropbox.com/scl/fi/05lekwr0hpkjpr62sugd6/Shabakaty-TV-TV.apk?rlkey=su9av91yb64aojcpz7uuvs2yy&e=2&st=pmwf491y&dl=0"
     },
     {
-        "name": "Shabakaty TV",
-        "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/shabakaty_tv.png",
+        "name": "Almanasa TV",
+        "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/almansas.webp",
         "download": "https://www.dropbox.com/scl/fi/05lekwr0hpkjpr62sugd6/Shabakaty-TV-TV.apk?rlkey=su9av91yb64aojcpz7uuvs2yy&e=2&st=pmwf491y&dl=0"
     },
     {
-        "name": "Shabakaty TV",
-        "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/shabakaty_tv.png",
+        "name": "Vodu TV (For New TV)",
+        "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/vodu.png",
         "download": "https://www.dropbox.com/scl/fi/05lekwr0hpkjpr62sugd6/Shabakaty-TV-TV.apk?rlkey=su9av91yb64aojcpz7uuvs2yy&e=2&st=pmwf491y&dl=0"
     },
     {
-        "name": "Shabakaty TV",
-        "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/shabakaty_tv.png",
+        "name": "Vodu TV (For Old TV)",
+        "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/vodu.png",
         "download": "https://www.dropbox.com/scl/fi/05lekwr0hpkjpr62sugd6/Shabakaty-TV-TV.apk?rlkey=su9av91yb64aojcpz7uuvs2yy&e=2&st=pmwf491y&dl=0"
     },
     {
-        "name": "Shabakaty TV",
-        "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/shabakaty_tv.png",
+        "name": "Televizo (Premium)",
+        "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/televizo.png",
         "download": "https://www.dropbox.com/scl/fi/05lekwr0hpkjpr62sugd6/Shabakaty-TV-TV.apk?rlkey=su9av91yb64aojcpz7uuvs2yy&e=2&st=pmwf491y&dl=0"
     },
     {
-        "name": "Shabakaty TV",
-        "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/shabakaty_tv.png",
+        "name": "Send File To TV (Arabic)",
+        "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/sendfiletotv.png",
         "download": "https://www.dropbox.com/scl/fi/05lekwr0hpkjpr62sugd6/Shabakaty-TV-TV.apk?rlkey=su9av91yb64aojcpz7uuvs2yy&e=2&st=pmwf491y&dl=0"
     },
     {
-        "name": "Shabakaty TV",
-        "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/shabakaty_tv.png",
+        "name": "IPTV (Pro)",
+        "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/iptv.png",
         "download": "https://www.dropbox.com/scl/fi/05lekwr0hpkjpr62sugd6/Shabakaty-TV-TV.apk?rlkey=su9av91yb64aojcpz7uuvs2yy&e=2&st=pmwf491y&dl=0"
     }
 ]
