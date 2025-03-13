@@ -15,6 +15,11 @@
         "download": "https://www.dropbox.com/scl/fi/05lekwr0hpkjpr62sugd6/Shabakaty-TV-TV.apk?rlkey=su9av91yb64aojcpz7uuvs2yy&e=2&st=pmwf491y&dl=0"
     },
     {
+        "name": "VEO TV",
+        "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/veo.png",
+        "download": "https://www.dropbox.com/scl/fi/05lekwr0hpkjpr62sugd6/Shabakaty-TV-TV.apk?rlkey=su9av91yb64aojcpz7uuvs2yy&e=2&st=pmwf491y&dl=0"
+    },
+    {
         "name": "Almanasa TV",
         "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/almansas.webp",
         "download": "https://www.dropbox.com/scl/fi/05lekwr0hpkjpr62sugd6/Shabakaty-TV-TV.apk?rlkey=su9av91yb64aojcpz7uuvs2yy&e=2&st=pmwf491y&dl=0"
@@ -42,6 +47,41 @@
     {
         "name": "IPTV (Pro)",
         "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/iptv.png",
+        "download": "https://www.dropbox.com/scl/fi/05lekwr0hpkjpr62sugd6/Shabakaty-TV-TV.apk?rlkey=su9av91yb64aojcpz7uuvs2yy&e=2&st=pmwf491y&dl=0"
+    },
+    {
+        "name": "FX File Explorer (Pro)",
+        "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/fxfile.png",
+        "download": "https://www.dropbox.com/scl/fi/05lekwr0hpkjpr62sugd6/Shabakaty-TV-TV.apk?rlkey=su9av91yb64aojcpz7uuvs2yy&e=2&st=pmwf491y&dl=0"
+    },
+    {
+        "name": "Control Screen Orientation (Premium)",
+        "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/controlscreen.png",
+        "download": "https://www.dropbox.com/scl/fi/05lekwr0hpkjpr62sugd6/Shabakaty-TV-TV.apk?rlkey=su9av91yb64aojcpz7uuvs2yy&e=2&st=pmwf491y&dl=0"
+    },
+    {
+        "name": "Shabakaty Pro Premuim",
+        "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/shabakatypro.png",
+        "download": "https://www.dropbox.com/scl/fi/05lekwr0hpkjpr62sugd6/Shabakaty-TV-TV.apk?rlkey=su9av91yb64aojcpz7uuvs2yy&e=2&st=pmwf491y&dl=0"
+    },
+    {
+        "name": "Cinemana Plus",
+        "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/cinemanaplus.png",
+        "download": "https://www.dropbox.com/scl/fi/05lekwr0hpkjpr62sugd6/Shabakaty-TV-TV.apk?rlkey=su9av91yb64aojcpz7uuvs2yy&e=2&st=pmwf491y&dl=0"
+    },
+    {
+        "name": "Cast X",
+        "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/cast.png",
+        "download": "https://www.dropbox.com/scl/fi/05lekwr0hpkjpr62sugd6/Shabakaty-TV-TV.apk?rlkey=su9av91yb64aojcpz7uuvs2yy&e=2&st=pmwf491y&dl=0"
+    },
+    {
+        "name": "Cast X Player",
+        "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/castplayer.png",
+        "download": "https://www.dropbox.com/scl/fi/05lekwr0hpkjpr62sugd6/Shabakaty-TV-TV.apk?rlkey=su9av91yb64aojcpz7uuvs2yy&e=2&st=pmwf491y&dl=0"
+    },
+    {
+        "name": "Nebula Manager",
+        "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/nebula.png",
         "download": "https://www.dropbox.com/scl/fi/05lekwr0hpkjpr62sugd6/Shabakaty-TV-TV.apk?rlkey=su9av91yb64aojcpz7uuvs2yy&e=2&st=pmwf491y&dl=0"
     }
 ]
