@@ -1,0 +1,170 @@
+/* إعدادات عامة */
+body {
+    font-family: 'Tajawal', sans-serif;
+    text-align: center;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* رأس الصفحة */
+.header {
+    background: #222;
+    color: white;
+    padding: 20px;
+    border-bottom: 4px solid #28a745;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ترتيب المحتوى داخل الهيدر */
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  /* جعل العناصر في اليمين واليسار */
+    gap: 15px;
+    background: #333;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: fit-content;
+}
+
+/* صندوق QR */
+.qr-box {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.qr-code {
+    width: 100px;
+    height: 100px;
+}
+
+/* تنسيق النص بجانب QR */
+.text-content {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.header h1 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+/* جعل المعرف في الأسفل وفي المنتصف */
+.telegram {
+    font-size: 18px;
+    color: #28a745;
+    font-weight: bold;
+    margin-top: 8px;
+    text-align: center; /* توسيط المعرف */
+    display: block; /* جعله في سطر منفصل */
+}
+
+/* عنوان "تطبيقات الشاشة" */
+.apps-title {
+    font-size: 22px;
+    color: #fff;
+    margin-top: 15px;
+}
+
+/* خط الفاصل */
+.divider {
+    width: 80%;
+    height: 4px;
+    background: #28a745;
+    border: none;
+    margin: 10px auto;
+}
+
+/* حاوية البطاقات */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* تصميم البطاقة */
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* صورة التطبيق */
+.card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+/* اسم التطبيق */
+.card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* زر التحميل */
+.download-btn {
+    display: block;
+    padding: 12px;
+    background: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background 0.3s ease-in-out;
+}
+
+.download-btn:hover {
+    background: #218838;
+}
+
+/* تصميم متجاوب */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    /* ترتيب الهيدر عموديًا عند تصغير الشاشة */
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .qr-box {
+        padding: 5px;
+    }
+
+    .qr-code {
+        width: 80px;
+        height: 80px;
+    }
+
+    .header h1 {
+        font-size: 18px;
+    }
+
+    .telegram {
+        font-size: 16px;
+    }
+}

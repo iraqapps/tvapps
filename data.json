@@ -1,0 +1,17 @@
+[
+    {
+        "name": "سينمانا",
+        "image": "https://img.utdstc.com/icon/56c/c04/56cc044fca039c3078b0e5ea70df9786e9f606134776e92d2a605d08dda0cc9b",
+        "download": "https://example.com/app1.apk"
+    },
+    {
+        "name": "تطبيق 2",
+        "image": "https://i1.adis.ws/i/canon/get-inspired-self-portrait-tips-1-16x9_a0b8db9e3f2042efb419b22d67d25edf?$hero-header-half-16by9-dt-jpg$",
+        "download": "https://example.com/app2.apk"
+    },
+    {
+        "name": "تطبيق 3",
+        "image": "app3.png",
+        "download": "https://example.com/app3.apk"
+    }
+]
