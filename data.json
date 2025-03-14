@@ -50,6 +50,11 @@
         "download": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/shabakaty_pro_premuim.apk"
     },
     {
+        "name": "Drama Live ( Code : 232425 )",
+        "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/dramalive.png",
+        "download": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/dramalive.apk"
+    },
+    {
         "name": "Cinemana Plus",
         "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/cinemanaplus.png",
         "download": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/cinemanaplustv.apk"
