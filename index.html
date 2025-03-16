@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>تطبيقات الشاشة</title>
+    <title>تطبيقات معدلة</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    
+    <!-- رأس الصفحة -->
     <div class="header">
         <div class="header-content">
-            
+            <!-- QR Code على اليسار -->
             <div class="qr-box">
                 <img src="qrcode.png" alt="QR Code" class="qr-code">
             </div>
 
-            
+            <!-- نص العنوان مع المعرف أسفل العنوان في الوسط -->
             <div class="text-content">
                 <h1>انضم لأفخم قناة عراقية للتطبيقات المعدلة</h1>
                 <p class="telegram">@Android_AppsX</p>
@@ -26,9 +26,9 @@
         <hr class="divider">
     </div>
 
-    
+    <!-- البطاقات -->
     <div class="container" id="app-container">
-        
+        <!-- البطاقات ستُضاف هنا تلقائيًا -->
     </div>
 
     <script>
@@ -42,10 +42,20 @@
                     const card = document.createElement('div');
                     card.classList.add('card');
 
+                    let buttons = `
+                        <a href="${app.download1}" class="download-btn" download>${app.button1 || "تحميل 1"}</a>
+                    `;
+
+                    if (app.download2) {
+                        buttons += `
+                            <a href="${app.download2}" class="download-btn" download>${app.button2 || "تحميل 2"}</a>
+                        `;
+                    }
+
                     card.innerHTML = `
                         <img src="${app.image}" alt="${app.name}">
                         <h3>${app.name}</h3>
-                        <a href="${app.download}" class="download-btn" download>تحميل</a>
+                        ${buttons}
                     `;
 
                     container.appendChild(card);
