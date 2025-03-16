@@ -2,121 +2,185 @@
     {
         "name": "Cinemana Leanback",
         "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/cinemana.png",
-        "download": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/cinemana_leanback_last.apk"
+        "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/cinemana_leanback_last.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
     },
     {
         "name": "Shabakaty TV",
         "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/shabakaty_tv.png",
-        "download": "https://www.mediafire.com/file/g282m4iueqsfuwk/shabakaty_tv.apk/file"
+        "download1": "https://www.mediafire.com/file/g282m4iueqsfuwk/shabakaty_tv.apk/file",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
     },
     {
         "name": "CEE TV",
         "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/ceeapp.jpg",
-        "download": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/cee_leanback_last.apk"
+        "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/cee_leanback_last.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
     },
     {
         "name": "VEO TV",
         "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/veo.png",
-        "download": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/veo_tv.apk"
+        "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/veo_tv.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
     },
     {
         "name": "Almanasa TV",
         "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/almansas.webp",
-        "download": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/almanasa_2.2.1.apk"
+        "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/almanasa_2.2.1.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
     },
     {
         "name": "TV Leanback",
         "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/tvleanback.png",
-        "download": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/tv_leanback_1.6.5.apk"
+        "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/tv_leanback_1.6.5.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
     },
     {
         "name": "Vodu TV (For New TV)",
         "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/vodu.png",
-        "download": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/vodu_new_tv.apk"
+        "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/vodu_new_tv.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
     },
     {
         "name": "Vodu TV (For Old TV)",
         "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/vodu.png",
-        "download": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/vodu_old_tv.apk"
+        "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/vodu_old_tv.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
     },
     {
         "name": "1001 TV",
         "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/1001.png",
-        "download": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/1001.apk"
+        "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/1001.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
     },
     {
         "name": "Shabakaty Pro Premuim",
         "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/shabakatypro.png",
-        "download": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/shabakaty_pro_premuim.apk"
+        "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/shabakaty_pro_premuim.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
     },
     {
         "name": "Drama Live ( Code : 232425 )",
         "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/dramalive.png",
-        "download": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/dramalive.apk"
+        "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/dramalive.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
     },
     {
         "name": "Cinemana Plus",
         "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/cinemanaplus.png",
-        "download": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/cinemanaplustv.apk"
+        "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/cinemanaplustv.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
     },
     {
         "name": "Cast X",
         "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/cast.png",
-        "download": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/castx.apk"
-    },
-    {
-        "name": "Cast X Player",
-        "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/castplayer.png",
-        "download": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/castxplayer.apk"
+        "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/castx.apk",
+        "button1": "تحميل التطبيق",
+        "download2": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/castxplayer.apk",
+        "button2": "تحميل المشغل"
     },
     {
         "name": "Televizo (Premium)",
         "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/televizo.png",
-        "download": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/televizo.apk"
+        "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/televizo.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
     },
     {
         "name": "Send File To TV (Arabic)",
         "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/sendfiletotv.png",
-        "download": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/send_file_totv.apk"
+        "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/send_file_totv.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
     },
     {
         "name": "IPTV (Pro)",
         "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/iptv.png",
-        "download": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/iptv_pro.apk"
+        "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/iptv_pro.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
     },
     {
         "name": "FX File Explorer (Pro)",
         "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/fxfile.png",
-        "download": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/fx_file_explorer_pro.apk"
+        "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/fx_file_explorer_pro.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
     },
     {
         "name": "Control Screen Orientation",
         "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/controlscreen.png",
-        "download": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/control_screen_orientation_premium.apk"
+        "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/control_screen_orientation_premium.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
     },
     {
         "name": "Nebula Manager",
         "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/nebula.png",
-        "download": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/nebula.apk"
+        "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/nebula.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
     },
     {
         "name": "Web Video Caster Receiver",
         "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/webcaster.png",
-        "download": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/webcasterreceiver.apk"
+        "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/webcasterreceiver.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
     },
     {
         "name": "Open Browser",
         "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/openbrowser.png",
-        "download": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/openbrowser.apk"
+        "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/openbrowser.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
     },
     {
         "name": "Open Browser Lite",
         "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/openbroserlite.png",
-        "download": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/openbrowserlite.apk"
+        "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/openbrowserlite.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
     },
     {
         "name": "Apps Manager",
         "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/appsmanager.png",
-        "download": "https://www.mediafire.com/file/hnzfljfmomhb50a/appsmanager.apk/file"
+        "download1": "https://www.mediafire.com/file/hnzfljfmomhb50a/appsmanager.apk/file",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
     }
-        ]
+]
