@@ -1,5 +1,13 @@
 [
     {
+        "name": "Almanasa X (TV)",
+        "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/almanasax.png",
+        "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/AlmanasaTV.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
+    },
+    {
         "name": "Cinemana Leanback",
         "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/cinemana.png",
         "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/cinemana_leanback_last.apk",
