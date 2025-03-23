@@ -1,6 +1,9 @@
+/* استيراد خط جديد "Tajawal" للكتابة العربية */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap');
+
 /* إعدادات عامة */
 body {
-    font-family: 'Tajawal', sans-serif;
+    font-family: 'Amiri', serif;
     text-align: center;
     background-color: #f8f8f8;
     margin: 0;
@@ -22,7 +25,7 @@ body {
 .header-content {
     display: flex;
     align-items: center;
-    justify-content: space-between;  /* جعل العناصر في اليمين واليسار */
+    justify-content: center;
     gap: 15px;
     background: #333;
     padding: 15px;
@@ -46,7 +49,6 @@ body {
 /* تنسيق النص بجانب QR */
 .text-content {
     text-align: center;
-    flex-grow: 1;
 }
 
 .header h1 {
@@ -54,98 +56,88 @@ body {
     margin-bottom: 5px;
 }
 
-/* جعل المعرف في الأسفل وفي المنتصف */
+/* تنسيق المعرف */
 .telegram {
     font-size: 18px;
     color: #28a745;
     font-weight: bold;
     margin-top: 8px;
-    text-align: center; /* توسيط المعرف */
-    display: block; /* جعله في سطر منفصل */
-}
-
-/* عنوان "تطبيقات الشاشة" */
-.apps-title {
-    font-size: 22px;
-    color: #fff;
-    margin-top: 15px;
-}
-
-/* خط الفاصل */
-.divider {
-    width: 80%;
-    height: 4px;
-    background: #28a745;
-    border: none;
-    margin: 10px auto;
-}
-
-/* حاوية البطاقات */
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
-}
-
-/* تصميم البطاقة */
-.card {
-    background: white;
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 250px;
-    text-align: center;
-    transition: transform 0.3s ease-in-out;
-}
-
-.card:hover {
-    transform: scale(1.05);
-}
-
-/* صورة التطبيق */
-.card img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-}
-
-/* اسم التطبيق */
-.card h3 {
-    font-size: 18px;
-    margin: 10px 0;
-}
-
-/* زر التحميل */
-.download-btn {
     display: block;
-    padding: 12px;
-    background: #28a745;
+}
+
+/* حاوية الأزرار */
+.buttons-container {
+    display: flex;
+    justify-content: center; /* جعل الأزرار في المنتصف */
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    width: 100%; /* التأكد من أنها تمتد بعرض الصفحة */
+}
+
+/* تصميم الأزرار */
+.custom-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 120px;
+    background-color: #2c3e50; /* اللون الرمادي الغامق */
     color: white;
     text-decoration: none;
-    border-radius: 5px;
-    font-size: 16px;
-    margin-top: 10px;
-    transition: background 0.3s ease-in-out;
+    border-radius: 15px;
+    font-size: 22px; /* تغيير حجم الخط */
+    font-weight: 600; /* جعل الخط ثقيل أكثر */
+    border: 2px solid #27ae60; /* الحدود باللون الأخضر الغامق */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Tajawal', sans-serif; /* تغيير الخط هنا إلى Tajawal */
 }
 
-.download-btn:hover {
-    background: #218838;
+/* تأثير الإضاءة عند التمرير */
+.custom-button::before {
+    content: "";
+    position: absolute;
+    top: -100%;
+    left: -100%;
+    width: 250%;
+    height: 250%;
+    background: rgba(255, 255, 255, 0.2);
+    transform: rotate(45deg);
+    transition: all 0.5s;
+}
+
+/* تأثير عند تمرير الماوس */
+.custom-button:hover {
+    transform: scale(1.08);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* تأثير الإضاءة عند التمرير */
+.custom-button:hover::before {
+    top: 100%;
+    left: 100%;
+}
+
+/* أيقونات داخل الأزرار */
+.custom-button i {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+/* تنسيق النص داخل الأزرار ليبدو أكثر فخامة */
+.custom-button span {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase; /* تحويل النص إلى أحرف كبيرة */
 }
 
 /* تصميم متجاوب */
 @media (max-width: 768px) {
-    .container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .card {
-        width: 80%;
-    }
-
-    /* ترتيب الهيدر عموديًا عند تصغير الشاشة */
     .header-content {
         flex-direction: column;
         text-align: center;
@@ -166,5 +158,16 @@ body {
 
     .telegram {
         font-size: 16px;
+    }
+
+    .buttons-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .custom-button {
+        width: 90%;
+        height: 100px;
+        font-size: 18px;
     }
 }
