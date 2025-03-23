@@ -1,0 +1,149 @@
+/* إعدادات عامة */
+body {
+    font-family: 'Tajawal', sans-serif;
+    text-align: center;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* رأس الصفحة (تم تعديله) */
+.header {
+    background: #222;
+    color: white;
+    padding: 20px;
+    border-bottom: 4px solid #28a745;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* زر الانتقال إلى الصفحة التالية */
+.navigate-btn-container {
+    width: 100%; /* جعل عرض الزر بعرض الصفحة */
+    margin-bottom: 20px; /* المسافة بين الزر وكلمة تطبيقات الشاشة */
+    display: flex;
+    justify-content: center; /* توسيط الزر */
+}
+
+.navigate-btn {
+    display: inline-block;
+    width: 80%; /* عرض الزر بعرض البطاقات */
+    padding: 12px;
+    background: #555; /* لون الزر الرمادي الغامق */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 2px solid #2e8b57; /* البوردر الأخضر الغامق */
+    transition: background 0.3s ease-in-out;
+}
+
+.navigate-btn:hover {
+    background: #333; /* تغيير لون الزر عند التمرير */
+    border-color: #218838; /* تغيير لون البوردر عند التمرير */
+}
+
+/* عنوان "تطبيقات الشاشة" */
+.apps-title {
+    font-size: 22px;
+    color: #fff;
+    margin-top: 15px;
+}
+
+/* خط الفاصل */
+.divider {
+    width: 80%;
+    height: 4px;
+    background: #28a745;
+    border: none;
+    margin: 10px auto;
+}
+
+/* حاوية البطاقات */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* تصميم البطاقة */
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* صورة التطبيق */
+.card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+/* اسم التطبيق */
+.card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* زر التحميل */
+.download-btn {
+    display: block;
+    padding: 12px;
+    background: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background 0.3s ease-in-out;
+}
+
+.download-btn:hover {
+    background: #218838;
+}
+
+/* تصميم متجاوب */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .qr-box {
+        padding: 5px;
+    }
+
+    .qr-code {
+        width: 80px;
+        height: 80px;
+    }
+
+    .header h1 {
+        font-size: 18px;
+    }
+
+    .telegram {
+        font-size: 16px;
+    }
+}
