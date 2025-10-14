@@ -56,8 +56,8 @@
     },
     {
         "name": "Almanasa TV",
-        "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/almansas.webp",
-        "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/almanasa_2.2.1.apk",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/58/61/01/586101c8-a802-2683-6c8c-853851da84a9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/230x0w.webp",
+        "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/app-release-2.6-protected.apk",
         "button1": "تحميل",
         "download2": "",
         "button2": "",
@@ -600,3 +600,4 @@
         "activation_code": "2025 في كل الخانات"
     }
 ]
+
