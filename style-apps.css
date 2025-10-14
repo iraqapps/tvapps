@@ -1,0 +1,295 @@
+/* استيراد خط Tajawal */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&display=swap');
+
+/* إعدادات عامة - تصميم "الداكن الفاخر والأخضر الهادئ" */
+body {
+    font-family: 'Tajawal', sans-serif;
+    text-align: center;
+    background-color: #1A1A1A; 
+    color: #F0F0F0; 
+    margin: 0;
+    padding: 0;
+}
+
+/* رأس الصفحة وزر الرجوع */
+.header {
+    background: #262626; 
+    padding: 20px;
+    border-bottom: 4px solid #00A560; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navigate-btn-container {
+    width: 100%;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+/* زر الرجوع */
+.navigate-btn { 
+    display: inline-block;
+    width: auto;
+    max-width: 400px;
+    padding: 12px 25px;
+    background: #262626; 
+    color: #00A560; 
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background 0.3s, transform 0.3s;
+    border: 2px solid #00A560; 
+    cursor: pointer;
+}
+
+.navigate-btn:hover {
+    background: #00A560; 
+    color: #1A1A1A; 
+    transform: scale(1.03);
+}
+
+.apps-title {
+    font-size: 26px;
+    font-weight: 700;
+    color: #F0F0F0; 
+    margin: 0;
+}
+
+/* شريط البحث */
+#app-search, 
+#leanback-search, 
+#mouse-required-search {
+    width: 90%;
+    max-width: 600px;
+    padding: 15px 20px;
+    margin: 30px auto 30px auto;
+    display: block;
+    border: 2px solid #00A560; 
+    border-radius: 10px;
+    background-color: #262626; 
+    color: #F0F0F0; 
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+#app-search::placeholder,
+#leanback-search::placeholder,
+#mouse-required-search::placeholder {
+    color: #AFAFAF; 
+}
+
+#app-search:focus,
+#leanback-search:focus,
+#mouse-required-search:focus {
+    border-color: #00A560; 
+    outline: none;
+}
+
+/* حاوية التطبيقات */
+.container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 100px; 
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* بطاقة التطبيق (تنسيق سطح المكتب/الأساسي) */
+.card {
+    background-color: #262626; 
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4); 
+    padding: 20px; 
+    width: 90%; 
+    max-width: 750px; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    transition: transform 0.3s;
+    border: 1px solid #333333; 
+    position: relative; 
+    padding-top: 50px; 
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.7);
+}
+
+.app-image {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 15px; 
+    object-fit: cover;
+    border: 4px solid #00A560; 
+    
+    /* توسيط الأيقونة */
+    position: absolute;
+    top: -50px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    
+    z-index: 10;
+    margin: 0; 
+    order: unset;
+    flex-shrink: 0; 
+}
+
+/* حاوية المحتوى الأيمن */
+.content-wrapper {
+    display: flex;
+    flex-direction: column; 
+    flex-grow: 1; 
+    gap: 10px; 
+    order: 1; 
+    width: 100%; 
+    align-items: center;
+}
+
+.card h3 {
+    font-size: 24px; 
+    font-weight: 800;
+    color: #F0F0F0; 
+    margin: 20px 0 5px 0; 
+    text-align: center; 
+    width: 100%;
+}
+
+/* تفاصيل اسم المستخدم/كلمة المرور/كود التفعيل */
+.details-box {
+    background-color: #333333; 
+    border: 1px dashed #00A560; 
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 0; /* ✨ التعديل: إزالة الهامش السفلي لصندوق التفاصيل */
+    width: 100%; 
+    box-sizing: border-box;
+    text-align: right;
+}
+
+.detail-item {
+    font-size: 14px;
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+
+.detail-item:last-child {
+    margin-bottom: 0;
+}
+
+.detail-item strong {
+    color: #AFAFAF; 
+    font-weight: 500;
+}
+
+/* تنسيق القيمة التي يمكن نسخها */
+.detail-value {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 15px; 
+    text-align: right; 
+    unicode-bidi: unset; 
+    font-weight: 700;
+    color: #00A560; 
+    word-break: break-all;
+    transition: color 0.3s;
+}
+
+.detail-value:hover {
+    text-decoration: underline;
+}
+
+/* الحاوية الجديدة للأزرار */
+.buttons-group {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    width: 100%; 
+    gap: 10px; 
+    margin-top: 8px; /* ✨ التعديل: تقليل الهامش العلوي لمجموعة الأزرار */
+}
+
+/* زر التحميل الأساسي */
+.download-btn {
+    display: block;
+    width: 100%; 
+    padding: 12px 20px; 
+    background: #262626; 
+    color: #00A560; 
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 16px; 
+    font-weight: 700;
+    transition: background 0.3s, transform 0.3s;
+    box-sizing: border-box; 
+    margin: 0; 
+    border: 1px solid #00A560; 
+    text-align: center; 
+}
+
+.download-btn:hover {
+    background: #00A560; 
+    color: #1A1A1A; 
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* رسالة الخطأ أو عدم وجود نتائج */
+.error-message {
+    color: #00A560; 
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    background: #262626; 
+    border-radius: 10px;
+    border: 2px solid #00A560; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* --- تصميم متجاوب (للهواتف والأجهزة الصغيرة) --- */
+@media (max-width: 768px) {
+    .container {
+        gap: 50px; 
+    }
+    .card {
+        max-width: 98%; 
+        padding: 15px; 
+        padding-top: 40px; 
+    }
+    
+    .app-image {
+        width: 70px; 
+        height: 70px; 
+        top: -35px; 
+        left: 50%; 
+        transform: translateX(-50%);
+    }
+    
+    .card h3 {
+        font-size: 18px; 
+        margin: 15px 0 5px 0; 
+    }
+    
+    .details-box {
+        padding: 8px; 
+        margin-bottom: 0; /* ✨ التعديل: إزالة الهامش السفلي في الهاتف أيضاً */
+    }
+    
+    .buttons-group {
+        margin-top: 6px; /* ✨ التعديل: تقليل الهامش العلوي في الهاتف أيضاً */
+    }
+    
+    .download-btn {
+        padding: 10px 15px; 
+        font-size: 15px; 
+    }
+}
