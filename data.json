@@ -5,7 +5,10 @@
         "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/AlmanasaTV.apk",
         "button1": "تحميل",
         "download2": "",
-        "button2": ""
+        "button2": "",
+        "username": "",
+        "password": "",
+        "activation_code": ""
     },
     {
         "name": "Cinemana Leanback",
@@ -13,7 +16,10 @@
         "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/cinemana_leanback_last.apk",
         "button1": "تحميل",
         "download2": "",
-        "button2": ""
+        "button2": "",
+        "username": "",
+        "password": "",
+        "activation_code": ""
     },
     {
         "name": "Shabakaty TV",
@@ -21,7 +27,10 @@
         "download1": "https://www.mediafire.com/file/g282m4iueqsfuwk/shabakaty_tv.apk/file",
         "button1": "تحميل",
         "download2": "",
-        "button2": ""
+        "button2": "",
+        "username": "",
+        "password": "",
+        "activation_code": ""
     },
     {
         "name": "CEE TV",
@@ -29,7 +38,10 @@
         "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/cee_leanback_last.apk",
         "button1": "تحميل",
         "download2": "",
-        "button2": ""
+        "button2": "",
+        "username": "",
+        "password": "",
+        "activation_code": ""
     },
     {
         "name": "VEO TV",
@@ -37,7 +49,10 @@
         "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/veo_tv.apk",
         "button1": "تحميل",
         "download2": "",
-        "button2": ""
+        "button2": "",
+        "username": "",
+        "password": "",
+        "activation_code": ""
     },
     {
         "name": "Almanasa TV",
@@ -45,7 +60,10 @@
         "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/almanasa_2.2.1.apk",
         "button1": "تحميل",
         "download2": "",
-        "button2": ""
+        "button2": "",
+        "username": "",
+        "password": "",
+        "activation_code": ""
     },
     {
         "name": "TV Leanback",
@@ -53,7 +71,10 @@
         "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/tv_leanback_1.6.5.apk",
         "button1": "تحميل",
         "download2": "",
-        "button2": ""
+        "button2": "",
+        "username": "",
+        "password": "",
+        "activation_code": ""
     },
     {
         "name": "Vodu TV (For New TV)",
@@ -61,7 +82,10 @@
         "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/vodu_new_tv.apk",
         "button1": "تحميل",
         "download2": "",
-        "button2": ""
+        "button2": "",
+        "username": "",
+        "password": "",
+        "activation_code": ""
     },
     {
         "name": "Vodu TV (For Old TV)",
@@ -69,7 +93,10 @@
         "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/vodu_old_tv.apk",
         "button1": "تحميل",
         "download2": "",
-        "button2": ""
+        "button2": "",
+        "username": "",
+        "password": "",
+        "activation_code": ""
     },
     {
         "name": "1001 TV",
@@ -77,7 +104,10 @@
         "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/1001.apk",
         "button1": "تحميل",
         "download2": "",
-        "button2": ""
+        "button2": "",
+        "username": "",
+        "password": "",
+        "activation_code": ""
     },
     {
         "name": "Shabakaty Pro Premuim",
@@ -85,15 +115,21 @@
         "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/shabakaty_pro_premuim.apk",
         "button1": "تحميل",
         "download2": "",
-        "button2": ""
+        "button2": "",
+        "username": "",
+        "password": "",
+        "activation_code": ""
     },
     {
-        "name": "Drama Live ( Code : 232425 )",
+        "name": "Drama Live",
         "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/dramalive.png",
         "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/dramalive.apk",
         "button1": "تحميل",
         "download2": "",
-        "button2": ""
+        "button2": "",
+        "username": "",
+        "password": "",
+        "activation_code": "232425"
     },
     {
         "name": "Cinemana Plus",
@@ -101,7 +137,10 @@
         "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/cinemanaplustv.apk",
         "button1": "تحميل",
         "download2": "",
-        "button2": ""
+        "button2": "",
+        "username": "",
+        "password": "",
+        "activation_code": ""
     },
     {
         "name": "Cast X",
@@ -109,7 +148,21 @@
         "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/castx.apk",
         "button1": "تحميل التطبيق",
         "download2": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/castxplayer.apk",
-        "button2": "تحميل المشغل"
+        "button2": "تحميل المشغل",
+        "username": "",
+        "password": "",
+        "activation_code": ""
+    },
+    {
+        "name": "Remo TV",
+        "image": "https://remo-tv.com/download/assets/logo.png",
+        "download1": "https://files.remotv.xyz/remo%20TV%20v4.62.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": "",
+        "username": "",
+        "password": "",
+        "activation_code": "5050"
     },
     {
         "name": "Televizo (Premium)",
@@ -117,7 +170,10 @@
         "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/televizo.apk",
         "button1": "تحميل",
         "download2": "",
-        "button2": ""
+        "button2": "",
+        "username": "",
+        "password": "",
+        "activation_code": ""
     },
     {
         "name": "Send File To TV (Arabic)",
@@ -125,7 +181,10 @@
         "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/send_file_totv.apk",
         "button1": "تحميل",
         "download2": "",
-        "button2": ""
+        "button2": "",
+        "username": "",
+        "password": "",
+        "activation_code": ""
     },
     {
         "name": "IPTV (Pro)",
@@ -133,7 +192,10 @@
         "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/iptv_pro.apk",
         "button1": "تحميل",
         "download2": "",
-        "button2": ""
+        "button2": "",
+        "username": "",
+        "password": "",
+        "activation_code": ""
     },
     {
         "name": "FX File Explorer (Pro)",
@@ -141,7 +203,10 @@
         "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/fx_file_explorer_pro.apk",
         "button1": "تحميل",
         "download2": "",
-        "button2": ""
+        "button2": "",
+        "username": "",
+        "password": "",
+        "activation_code": ""
     },
     {
         "name": "Control Screen Orientation",
@@ -149,7 +214,10 @@
         "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/control_screen_orientation_premium.apk",
         "button1": "تحميل",
         "download2": "",
-        "button2": ""
+        "button2": "",
+        "username": "",
+        "password": "",
+        "activation_code": ""
     },
     {
         "name": "Nebula Manager",
@@ -157,7 +225,10 @@
         "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/nebula.apk",
         "button1": "تحميل",
         "download2": "",
-        "button2": ""
+        "button2": "",
+        "username": "",
+        "password": "",
+        "activation_code": ""
     },
     {
         "name": "Web Video Caster Receiver",
@@ -165,7 +236,10 @@
         "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/webcasterreceiver.apk",
         "button1": "تحميل",
         "download2": "",
-        "button2": ""
+        "button2": "",
+        "username": "",
+        "password": "",
+        "activation_code": ""
     },
     {
         "name": "Open Browser",
@@ -173,7 +247,10 @@
         "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/openbrowser.apk",
         "button1": "تحميل",
         "download2": "",
-        "button2": ""
+        "button2": "",
+        "username": "",
+        "password": "",
+        "activation_code": ""
     },
     {
         "name": "Open Browser Lite",
@@ -181,7 +258,10 @@
         "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/openbrowserlite.apk",
         "button1": "تحميل",
         "download2": "",
-        "button2": ""
+        "button2": "",
+        "username": "",
+        "password": "",
+        "activation_code": ""
     },
     {
         "name": "Apps Manager",
@@ -189,6 +269,334 @@
         "download1": "https://www.mediafire.com/file/hnzfljfmomhb50a/appsmanager.apk/file",
         "button1": "تحميل",
         "download2": "",
+        "button2": "",
+        "username": "",
+        "password": "",
+        "activation_code": ""
+    },
+    {
+        "name": "General TV",
+        "image": "https://images.sftcdn.net/images/t_app-icon-m/p/23f4df81-da55-4835-b594-85c126f5bfbc/3250101140/genral-tv-video-player-logo",
+        "download1": "https://s1.alajil24.systems/GENRAL%20TV%20-TV%20BOX.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": "",
+        "username": "",
+        "password": "",
+        "activation_code": "5050 او 3060"
+    },
+    {
+        "name": "NETFLY",
+        "image": "https://pbs.twimg.com/profile_images/1824266428956151811/J_H2oO6L_200x200.jpg",
+        "download1": "https://netflyapp.com/file/netfly_tv.apk",
+        "button1": "تحميل",
+        "download2": "",
         "button2": ""
+    },
+    {
+        "name": "Tea TV",
+        "image": "https://www.teatv.vip/wp-content/uploads/2025/07/cropped-Teatv-icon.webp",
+        "download1": "https://www.teatv.vip/teatv(teatv.vip)_v11.0.8.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
+    },
+    {
+        "name": "HI TV",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdK01rZot43ifT4FZVfno2hA_zWIXYp7prgzPCQdaAMrJHPJ58mMxe_upH&s=10",
+        "download1": "https://static.hitvpro.com/assets/HiTV.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
+    },
+    {
+        "name": "HDO Box TV",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh498wgAWwj8a9Qc2oLI7X0jNu7zHXGUBdx_lLL5sVdZ81f0SUJuODGFND&s=10",
+        "download1": "https://hdo.app/tv",
+        "button1": "تحميل",
+        "download2": "https://d.apkpure.net/b/APK/com.drama.simpleplayer?version=latest",
+        "button2": "تحميل المشغل"
+    },
+    {
+        "name": "Nova TV",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCfhk5w5eD8PM5nWCws-Eq0gyZDDQyWyV6gv2ClzUMY-a-Oegc5B9m8gh2&s=10",
+        "download1": "https://www.novatvapk.com/nova.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
+    },
+    {
+        "name": "Cinema HD",
+        "image": "https://cinemahd-apk.app/wp-content/uploads/2025/02/cinema_hd-removebg-1024x791.webp",
+        "download1": "https://cinemahd-apk.app/cinemahd-341-stable3.apk",
+        "button1": "تحميل",
+        "download2": "https://cinemahd-apk.app/csplayer-chd.apk",
+        "button2": "CSPlayer"
+    },
+    {
+        "name": "Stremio",
+        "image": "https://www.stremio.com/website/stremio-logo-small.png",
+        "download1": "https://www.stremio.com/downloads",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
+    },
+    {
+        "name": "OnStream",
+        "image": "https://onstreamapks.app/wp-content/uploads/2024/12/appicon-onstrem.png",
+        "download1": "https://onstreamapks.app/app/onstream-tv-1.1.0.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
+    },
+    {
+        "name": "اكشن TV",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8i69B7QE1NT6REgHC82PWktV8IoILLknF-yfF1seihw&s=10",
+        "download1": "https://download.action-tv-app.com/atv.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": "",
+        "username": "",
+        "password": "",
+        "activation_code": ""
+    },
+    {
+        "name": "FlixVision",
+        "image": "https://ugc.production.linktr.ee/f6d2a7a3-2b34-4efa-a914-0e28aba1c59b_app-logo-con-icon-1.png?io=true&size=avatar-v3_0",
+        "download1": "https://github.com/fvision8/fvreleases/releases/download/v3.2.0r/FlixVision_v3.2.0r.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
+    },
+    {
+        "name": "عالم الدراما",
+        "image": "https://dramaworld.aflamilive.com/dist/images/dw.png",
+        "download1": "https://t.co/lIrKccuypv",
+        "button1": "تحميل",
+        "download2": "https://t.co/giJ6wDGu0u",
+        "button2": "تحميل المشغل"
+    },
+    {
+        "name": "سيمو دراما",
+        "image": "https://simo-drama.org/wp-content/uploads/2025/04/simo-drama-2025.png",
+        "download1": "https://cdapp.shop/appnew_v5_5/cd_app_v5_5_tv.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
+    },
+    {
+        "name": "Kodi TV",
+        "image": "https://kodi.tv/images/kodi-logo-with-text.svg",
+        "download1": "https://kodi.tv/download/android/",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
+    },
+    {
+        "name": "CloudStream",
+        "image": "https://static.wikitide.net/cloudstreamwiki/4/48/CloudStream_logo_-_favicon.png",
+        "download1": "https://github.com/recloudstream/cloudstream/releases/download/v4.5.4/4.5.4.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
+    },
+    {
+        "name": "Film Plus",
+        "image": "https://filmplus.app/img/logo-dark.png",
+        "download1": "https://filmplus.app/dl",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
+    },
+    {
+        "name": "ADS Player",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToWZKYe7vjFcHuawgpRZQVG6ZWp9VUA4HEZQ&usqp=CAU",
+        "download1": "https://www.mediafire.com/file/ufjg3bah36l6chk/ASD_Player_4.3.6_%25282%2529.apk/file",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
+    },
+    {
+        "name": "انمي سلاير",
+        "image": "https://i.ibb.co/q3QjgLkL/Icon-com-anslayer.jpg",
+        "download1": "https://d.apkpure.net/b/APK/com.anslayer?version=latest",
+        "button1": "تحميل",
+        "download2": "https://www.mediafire.com/file/ufjg3bah36l6chk/ASD_Player_4.3.6_%25282%2529.apk/file",
+        "button2": "تحميل المشغل"
+    },
+    {
+        "name": "دراما سلاير",
+        "image": "https://drama-slayer.net/wp-content/uploads/2022/10/drama-slayer-apk.png",
+        "download1": "https://cdn.sptcdt.com/files/136999/136999-drslayerV2.2.0.apk",
+        "button1": "تحميل",
+        "download2": "https://www.mediafire.com/file/ufjg3bah36l6chk/ASD_Player_4.3.6_%25282%2529.apk/file",
+        "button2": "تحميل المشغل",
+        "username": "",
+        "password": "",
+        "activation_code": ""
+    },
+    {
+        "name": "مانجا سلاير",
+        "image": "https://mangaslayers.com/favicon.ico",
+        "download1": "https://github.com/abdlhay/Manga_slayer/releases/download/2.3.3/manga_slayer-universal_25.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
+    },
+    {
+        "name": "فشار",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM-XMoeveda2ndPUMLc9MOSzm41yjr95x24fpVpXt9BA&s=10",
+        "download1": "https://fushaar.app/app/FushaarV55.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": "",
+        "username": "",
+        "password": "",
+        "activation_code": ""
+    },
+    {
+        "name": "البطل TV",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcdm1nbCwa96TWKIaBVqOx6EleT7JaND9pWo1PWm8zGKS8txTHYUoYlsOe9TFuLERSVi0oFntgF23NOAUipFmY8aX5xZOHrsgZy0EteWOz40Y9X7N_udjfmg45k1NFKwEjJByVUCYAeI2KWalVg4xudpx-Z5JSAFk-KLHlQMPWmcYkxI92lAABfqxLmRo/s500/logo-500.png",
+        "download1": "https://cdn.jsdelivr.net/gh/Mouscripts/dl/Elbatal-TV.v2.9.4.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
+    },
+    {
+        "name": "GoTV",
+        "image": "https://go.hitv-app.com/wp-content/uploads/2025/04/images.jpg",
+        "download1": "https://download1650.mediafire.com/n0wjxnhkkvdg_FRMh2u9MlF9v1LQkOI02FjiN-6aQVXRJAfXeIipIo8vHPIso4c7gLmxhQa4OPV5CcUGfMlllHQbp9S7TGR7SSaH9mBl6ZovUMi3bTPLJ8SrCy5PTDFyrPmBHM8rnOMsetdDKk0Fw6zJuPUDbyLJGcZjzxTGhSRGykg/cyl8cbq9t38w9ft/GoTV_1.3.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
+    },
+    {
+        "name": "LOKLOK",
+        "image": "https://www.divxland.org/wp-content/uploads/2025/05/loklok-dramasmovies-thumbnail.png",
+        "download1": "https://static.netpop.app/loklok/android/Loklok_latest.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
+    },
+    {
+        "name": "airMAX",
+        "image": "https://ugc.production.linktr.ee/4aac47d9-4226-427d-915b-002a0acfa58a_airmax-tv-pro-apk-2023-code-------------------------------------------------------.jpeg?io=true&size=thumbnail-stack_v1_0",
+        "download1": "https://www.airmaxtv.app/",
+        "button1": "تحميل",
+        "download2": "http://airmaxtv.de/airmaxtvpro.apk",
+        "button2": "تحميل Pro"
+    },
+    {
+        "name": "الاحمد - Elahmad",
+        "image": "https://elahmad-tv.com/elahmad-tv.png",
+        "download1": "https://elahmad-tv.com/download/ElahmadTV.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": "",
+        "username": "",
+        "password": "",
+        "activation_code": "123123"
+    },
+    {
+        "name": "Zerda Live TV",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJk2XHpbeySB5GNULoIVPUGBxGo12SUdjg0QT18xo94QS8hHXZ9TXnM_XS&s=10",
+        "download1": "https://download.zerdaliveapp.xyz/ZERDA_LIVE_1_2025.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
+    },
+    {
+        "name": "Magis TV",
+        "image": "https://i1.sndcdn.com/artworks-skfMVSj2CRLSM2Jr-paqkow-t240x240.jpg",
+        "download1": "https://templat.xyz/magistv_version_5.0.2.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
+    },
+    {
+        "name": "YTV Player Pro",
+        "image": "https://down.ytvplayer.tv/wp-content/uploads/2025/09/cropped-unnamed.png",
+        "download1": "https://raw.githubusercontent.com/yacinetv2/ytv11.0/refs/heads/main/YTVPlayer_12.0.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
+    },
+    {
+        "name": "الاسطورة TV",
+        "image": "https://alostoratv.com/uploads/ostora-tv-icon.webp",
+        "download1": "https://www.ostora.tv/download/ostora_smart_4.9.apk",
+        "button1": "تحميل",
+        "download2": "https://files.catbox.moe/nuet94.apk",
+        "button2": "تحميل المشغل"
+    },
+    {
+        "name": "Aya TV",
+        "image": "https://ayatv.one/wp-content/uploads/2025/01/aya-tv.png",
+        "download1": "https://filez19.b-cdn.net/AYATV.ONE%20v3.14%20No%20Ads.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
+    },
+    {
+        "name": "شعاع التلفاز",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwwsiX9KLu3DnL2aqVz6Gdx7FebZMPjQ2bPi1qwgX1OmueQF9DhAy0t6Ai&s=10",
+        "download1": "https://files.catbox.moe/3mj91b.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
+    },
+    {
+        "name": "OTT Player",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvAYwsCz8y30V5-4ermmlC4TQAd0w2-k1R8xsojtM9Xw&s",
+        "download1": "https://ottplayer.tv/public/soft/OttPlayer_6.0.9.apk",
+        "button1": "تحميل",
+        "download2": "https://ottplayer.tv/public/soft/ottplayer_android-x86-release.apk",
+        "button2": "تحميل",
+        "username": "iraqi",
+        "password": "123456",
+        "activation_code": ""
+    },
+    {
+        "name": "IPTV Smarters Pro",
+        "image": "https://cdn6.aptoide.com/imgs/e/a/0/ea014d4b61d36715d08a1dc5408923a6_icon.png",
+        "download1": "https://www.iptvsmarters.com/iptv-smarters-5.0.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
+    },
+    {
+        "name": "Blink Streamz",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsJvkNEt8jjV-URtKA2Pk1dbGDzAfhowTBkIkY9g_FgQ&s",
+        "download1": "https://dl.streamia.xyz/files/BlinkStreamz-v1.9.3-update.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
+    },
+    {
+        "name": "Rapid Streamz",
+        "image": "https://rapidstreamz.com.co/wp-content/uploads/2024/10/Rapid-streamz.png",
+        "download1": "https://file.rapidstreamz.com.co/RapidStreamz_4.2_Update.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
+    },
+    {
+        "name": "SmartTube",
+        "image": "https://img.utdstc.com/icon/b9f/977/b9f977832d162f1a9e65e2df6fb6a1ae352121073563b43e1837f8fbcf79601b:200",
+        "download1": "https://github.com/yuliskov/SmartTubeNext/releases/download/latest/smarttube_stable.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
+    },
+    {
+        "name": "OTTO TV",
+        "image": "https://otto-tv.store/logo.png",
+        "download1": "https://otto-tv.store/OTTOTV_1.11.6.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": "",
+        "username": "",
+        "password": "",
+        "activation_code": "2025 في كل الخانات"
     }
 ]
