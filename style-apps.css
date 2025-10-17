@@ -31,8 +31,8 @@ body {
 /* زر الرجوع */
 .navigate-btn { 
     display: inline-block;
-    width: auto;
-    max-width: 400px;
+    width: 90%;
+    
     padding: 12px 25px;
     background: #262626; 
     color: #00A560; 
@@ -63,9 +63,9 @@ body {
 #leanback-search, 
 #mouse-required-search {
     width: 90%;
-    max-width: 600px;
+    
     padding: 15px 20px;
-    margin: 30px auto 30px auto;
+    margin: 30px auto 45px auto;
     display: block;
     border: 2px solid #00A560; 
     border-radius: 10px;
@@ -95,7 +95,7 @@ body {
     display: flex;
     flex-direction: column; 
     align-items: center; 
-    gap: 100px; 
+    gap: 140px; /* ✨ تم التعديل من 100px إلى 140px لزيادة التباعد بين البطاقات */
     padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
@@ -115,7 +115,7 @@ body {
     transition: transform 0.3s;
     border: 1px solid #333333; 
     position: relative; 
-    padding-top: 50px; 
+    padding-top: 70px; 
 }
 
 .card:hover {
@@ -124,15 +124,15 @@ body {
 }
 
 .app-image {
-    width: 100px; 
-    height: 100px; 
+    width: 130px; 
+    height: 130px; 
     border-radius: 15px; 
     object-fit: cover;
     border: 4px solid #00A560; 
     
     /* توسيط الأيقونة */
     position: absolute;
-    top: -50px; 
+    top: -65px; 
     left: 50%; 
     transform: translateX(-50%); 
     
@@ -154,7 +154,7 @@ body {
 }
 
 .card h3 {
-    font-size: 24px; 
+    font-size: 40px; 
     font-weight: 800;
     color: #F0F0F0; 
     margin: 20px 0 5px 0; 
@@ -168,14 +168,14 @@ body {
     border: 1px dashed #00A560; 
     border-radius: 10px;
     padding: 12px;
-    margin-bottom: 0; /* ✨ التعديل: إزالة الهامش السفلي لصندوق التفاصيل */
+    margin-bottom: 0; 
     width: 100%; 
     box-sizing: border-box;
     text-align: right;
 }
 
 .detail-item {
-    font-size: 14px;
+    font-size: 20px;
     margin-bottom: 5px;
     line-height: 1.5;
 }
@@ -193,7 +193,7 @@ body {
 .detail-value {
     display: inline-block;
     cursor: pointer;
-    font-size: 15px; 
+    font-size: 20px; 
     text-align: right; 
     unicode-bidi: unset; 
     font-weight: 700;
@@ -213,19 +213,19 @@ body {
     justify-content: center; 
     width: 100%; 
     gap: 10px; 
-    margin-top: 8px; /* ✨ التعديل: تقليل الهامش العلوي لمجموعة الأزرار */
+    margin-top: 8px; 
 }
 
 /* زر التحميل الأساسي */
 .download-btn {
     display: block;
     width: 100%; 
-    padding: 12px 20px; 
+    padding: 30px 20px; 
     background: #262626; 
     color: #00A560; 
     text-decoration: none;
     border-radius: 6px;
-    font-size: 16px; 
+    font-size: 20px; 
     font-weight: 700;
     transition: background 0.3s, transform 0.3s;
     box-sizing: border-box; 
@@ -258,38 +258,38 @@ body {
 /* --- تصميم متجاوب (للهواتف والأجهزة الصغيرة) --- */
 @media (max-width: 768px) {
     .container {
-        gap: 50px; 
+        gap: 80px; /* ✨ تم التعديل من 50px إلى 80px لزيادة التباعد في الهاتف */
     }
     .card {
         max-width: 98%; 
         padding: 15px; 
-        padding-top: 40px; 
+        padding-top: 50px; 
     }
     
     .app-image {
-        width: 70px; 
-        height: 70px; 
-        top: -35px; 
+        width: 90px; 
+        height: 90px; 
+        top: -45px; 
         left: 50%; 
         transform: translateX(-50%);
     }
     
     .card h3 {
-        font-size: 18px; 
+        font-size: 40px; 
         margin: 15px 0 5px 0; 
     }
     
     .details-box {
         padding: 8px; 
-        margin-bottom: 0; /* ✨ التعديل: إزالة الهامش السفلي في الهاتف أيضاً */
+        margin-bottom: 0; 
     }
     
     .buttons-group {
-        margin-top: 6px; /* ✨ التعديل: تقليل الهامش العلوي في الهاتف أيضاً */
+        margin-top: 6px; 
     }
     
     .download-btn {
-        padding: 10px 15px; 
-        font-size: 15px; 
+        padding: 30px 15px; 
+        font-size: 20px; 
     }
 }
