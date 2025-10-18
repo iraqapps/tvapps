@@ -1,0 +1,138 @@
+/* تعريف الألوان الجديدة */
+:root {
+    --primary-orange: #FF7043;      /* برتقالي حيوي (لون الزر في الحالة العادية) */
+    --focus-color: #00E5FF;         /* أزرق سماوي للتحديد (لون الزر عند التركيز) */
+    --background-dark: #121212;     /* خلفية داكنة جداً موحدة */
+    --text-light: #ffffff;          /* نص أبيض */
+}
+
+/* التنسيق الأساسي (الخلفية الموحدة) */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: var(--background-dark); /* الخلفية الداكنة الموحدة */
+    color: var(--text-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: 20px;
+    transition: background-color 0.3s;
+}
+
+/* الحاوية - تم إزالة التظليل واللون لتوحيد الخلفية */
+.container {
+    padding: 0px; /* تم تقليل الـ padding ليتم احتواء العناصر فقط */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px; 
+}
+
+/* أحجام العناصر للشاشات الكبيرة (التلفزيون/الحاسوب) */
+.app-name {
+    /* استخدام rem */
+    font-size: 2.5rem; 
+    font-weight: bold;
+    color: var(--text-light);
+    margin-bottom: 70px;
+}
+
+.app-icon {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 40px;
+    border-radius: 20%; 
+    border: 7px solid var(--primary-orange);
+    box-shadow: 0 0 30px rgba(255, 112, 67, 0.8);
+    transition: all 0.3s ease-in-out;
+}
+
+/* الزر في حالته الطبيعية (البرتقالي) */
+.main-button {
+    display: inline-block;
+    padding: 20px 40px;
+    /* استخدام rem */
+    font-size: 2rem; 
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--text-light);
+    background-color: var(--primary-orange); /* برتقالي في البداية */
+    border: 5px solid var(--primary-orange);
+    border-radius: 12px;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+    cursor: pointer;
+}
+
+/* تأثير التركيز (Focus) للريموت - يتغير لونه إلى الأزرق السماوي عند التحديد */
+.main-button:hover,
+.main-button:focus {
+    transform: scale(1.1); 
+    background-color: var(--focus-color); /* يتغير لون الزر إلى الأزرق السماوي عند التحديد */
+    border-color: var(--text-light); /* إطار أبيض واضح */
+    color: var(--background-dark); /* تغيير لون النص للتباين */
+    box-shadow: 0 0 50px var(--focus-color); /* ظل بلون التحديد الجديد */
+}
+
+/* ================================================= */
+/* Media Queries للتجاوب (للهواتف والتابلت) */
+/* ================================================= */
+
+/* للأجهزة اللوحية والشاشات المتوسطة (أقل من 768 بكسل) */
+@media (max-width: 768px) {
+    .app-icon {
+        width: 180px; 
+        height: 180px;
+        margin-bottom: 30px;
+        border-width: 5px;
+    }
+
+    .app-name {
+        /* استخدام rem */
+        font-size: 2.5rem; 
+        margin-bottom: 50px;
+    }
+
+    .main-button {
+        padding: 20px 40px; 
+        /* استخدام rem */
+        font-size: 2rem;
+    }
+}
+
+/* للهواتف الصغيرة (أقل من 480 بكسل) */
+@media (max-width: 480px) {
+    .app-icon {
+        width: 120px; 
+        height: 120px;
+        margin-bottom: 20px;
+        border-width: 3px;
+    }
+
+    .app-name {
+        /* استخدام rem */
+        font-size: 2rem; 
+        margin-bottom: 30px;
+    }
+
+    .main-button {
+        padding: 20px 40px; 
+        /* استخدام rem */
+        font-size: 1.5rem;
+    }
+    
+    /* تقليل تأثير التكبير قليلاً على الهواتف */
+    .main-button:hover,
+    .main-button:focus {
+        transform: scale(1.05); 
+    }
+}
