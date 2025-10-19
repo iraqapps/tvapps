@@ -77,6 +77,14 @@
         "activation_code": ""
     },
     {
+        "name": "افلامي - Aflaame",
+        "image": "https://iraqapps.github.io/tvapps/img/aflaametv.png",
+        "download1": "https://iraqapps.github.io/tvapps/apps/aflaametv.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": ""
+    },
+    {
         "name": "Vodu TV (For New TV)",
         "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/vodu.png",
         "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/vodu_new_tv.apk",
@@ -600,4 +608,3 @@
         "activation_code": "2025 في كل الخانات"
     }
 ]
-
