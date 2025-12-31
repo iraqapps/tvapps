@@ -3,80 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title id="page-title">TV Apps</title>
-    <meta name="description" content="أفخم قناة عراقية لتطبيقات الأندرويد المعدلة والمخصصة للشاشات (Leanback) وتطبيقات الهواتف التي تتطلب تحكم بالماوس/الريموت."/>
-    <meta name="keywords" content="تطبيقات اندرويد, تطبيقات شاشات, تطبيقات ماوس, تطبيقات معدلة, Android Apps X, سينمانا, شبكتي, العراق, Leanback"/>
-    <meta property="og:title" content="قناة Android Apps X | تطبيقات شاشات وتطبيقات ماوس معدلة"/>
-    <meta property="og:description" content="أفخم قناة عراقية لتطبيقات الأندرويد المعدلة والمخصصة للشاشات (Leanback) وتطبيقات الهواتف التي تتطلب تحكم بالماوس/الريموت."/>
-    <meta property="og:type" content="website"/>
-    
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&display=swap">
-    
-    <link rel="stylesheet" href="style.css"> 
-    <link rel="stylesheet" href="style-apps.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>تطبيقات أندرويد | Android Apps X</title>
+    <!-- استيراد الخطوط والأيقونات -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div id="home-page" class="page-section">
-        <div class="header">
-            <div class="header-content">
-                
-
-                <div class="text-content">
-
-                    
+    <!-- قسم الصفحة الرئيسية -->
+    <div id="home-page" class="page-section active">
+        <div class="main-menu">
+            <div class="menu-card" onclick="navigateTo('leanback')">
+                <div class="icon-circle">
+                    <i class="fas fa-tv"></i>
                 </div>
+                <h2>تطبيقات الشاشة</h2>
+                <p>Android TV / Leanback</p>
+            </div>
+
+            <div class="menu-card" onclick="navigateTo('mouse-required')">
+                <div class="icon-circle">
+                    <i class="fas fa-mouse"></i>
+                </div>
+                <h2>تطبيقات الماوس</h2>
+                <p>تتطلب تحكم خارجي</p>
             </div>
         </div>
+    </div>
 
-        <div class="buttons-container">
-            <button onclick="navigateTo('leanback')" class="custom-button">
-                <i class="fas fa-tv"></i> 
-                <span>تطبيقات مخصصة للشاشات</span>
-                <p class="button-desc">تطبيقات مصممة للعمل بالريموت على الشاشات الذكية</p>
+    <!-- قسم عرض التطبيقات -->
+    <div id="apps-page" class="page-section">
+        <div class="top-nav">
+            <button class="back-btn" onclick="navigateTo('home')">
+                <i class="fas fa-home"></i> الرئيسية
             </button>
-            <button onclick="navigateTo('mouse-required')" class="custom-button">
-                <i class="fas fa-mouse-pointer"></i> 
-                <span>تطبيقات الهواتف</span>
-                <p class="button-desc">تطبيقات الهواتف التي تعمل على الشاشات لكن تحتاج ماوس لتشغيلها.</p>
-            </button>
-        </div>
-    </div>
-    
-    <div id="leanback-page" class="page-section" style="display: none;">
-        <div class="header">
-            <div class="navigate-btn-container">
-                <button onclick="navigateTo('home')" class="navigate-btn">الرجوع للصفحة الرئيسية</button>
-            </div>
-
-            <h2 class="apps-title">📺 تطبيقات الشاشة  </h2>
+            <h2 id="category-title" class="category-title">تطبيقات</h2>
         </div>
 
-        <input type="text" id="leanback-search" placeholder="🔍 ابحث عن تطبيق باسمه أو معلومات الدخول..." dir="rtl">
-        
-        <p id="leanback-loading" class="loading-message" style="display: none;">...جاري تحميل تطبيقات الشاشات</p>
-
-        <div class="container" id="leanback-app-container"></div>
-    </div>
-
-    <div id="mouse-required-page" class="page-section" style="display: none;">
-        <div class="header">
-            <div class="navigate-btn-container">
-                <button onclick="navigateTo('home')" class="navigate-btn">الرجوع للصفحة الرئيسية</button>
-            </div>
-
-            <h2 class="apps-title">📱 تطبيقات الهاتف (تحكم ماوس)</h2>
+        <div class="search-container">
+            <input type="text" id="app-search" class="search-input" placeholder="ابحث عن تطبيق باسمه..." dir="rtl">
         </div>
 
-        <input type="text" id="mouse-required-search" placeholder="🔍 ابحث عن تطبيق باسمه أو معلومات الدخول..." dir="rtl">
-        
-        <p id="mouse-required-loading" class="loading-message" style="display: none;">...جاري تحميل تطبيقات الماوس</p>
-        
-        <div class="container" id="mouse-required-app-container"></div>
+        <div id="loading-spinner" class="loader" style="display:none;"></div>
+
+        <div id="apps-grid" class="apps-grid">
+            <!-- المحتوى البرمجي يظهر هنا -->
+        </div>
     </div>
 
-    <script src="appLoader.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
- 
+
