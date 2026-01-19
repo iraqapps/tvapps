@@ -1,5 +1,16 @@
 [
     {
+        "name": "1 IRAQ TV",
+        "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/1_iraq_tv.png",
+        "download1": "https://github.com/oneiraq/onetv_update/raw/refs/heads/main/1_iraq_tv_v1.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": "",
+        "username": "",
+        "password": "",
+        "activation_code": ""
+    },
+    {
         "name": "Super IQ",
         "image": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/img/superiq.png",
         "download1": "https://raw.githubusercontent.com/iraqapps/tvapps/refs/heads/main/apps/superiqtv_v1.apk",
@@ -619,5 +630,6 @@
         "activation_code": "2025 في كل الخانات"
     }
 ]
+
 
 
