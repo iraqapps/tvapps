@@ -39,6 +39,19 @@
         "activation_code": ""
     },
     {
+        "name": "QiTV",
+        "version": "v 1.1.0:v78",
+        "image": "https:\/\/raw.githubusercontent.com\/iraqapps\/tvapps\/refs\/heads\/main\/img\/QiTV.png",
+        "category": "العراق",
+        "download1": "https:\/\/github.com\/iraqapps\/tvapps\/raw\/refs\/heads\/main\/apps\/qitv_1_1.1.0v78.apk",
+        "button1": "نسخة 1",
+        "download2": "https:\/\/github.com\/iraqapps\/tvapps\/raw\/refs\/heads\/main\/apps\/qitv_2_1.1.0v78.apk",
+        "button2": "نسخة 2",
+        "username": "",
+        "password": "",
+        "activation_code": ""
+    },
+    {
         "name": "CEE TV",
         "version": "v 4.5.4",
         "image": "https:\/\/raw.githubusercontent.com\/iraqapps\/tvapps\/refs\/heads\/main\/img\/ceeapp.jpg",
