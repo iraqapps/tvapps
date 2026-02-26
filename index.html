@@ -1,58 +1,29 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="ar">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>تطبيقات أندرويد | Android Apps X</title>
-    <!-- استيراد الخطوط والأيقونات -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>متجر تطبيقات أندرويد X</title>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- قسم الصفحة الرئيسية -->
-    <div id="home-page" class="page-section active">
-        <div class="main-menu">
-            <div class="menu-card" onclick="navigateTo('leanback')">
-                <div class="icon-circle">
-                    <i class="fas fa-tv"></i>
-                </div>
-                <h2>تطبيقات الشاشة</h2>
-                <p>Android TV / Leanback</p>
-            </div>
+    <div id="toast">تم النسخ بنجاح 📋</div>
 
-            <div class="menu-card" onclick="navigateTo('mouse-required')">
-                <div class="icon-circle">
-                    <i class="fas fa-mouse"></i>
-                </div>
-                <h2>تطبيقات الماوس</h2>
-                <p>تتطلب تحكم خارجي</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- قسم عرض التطبيقات -->
-    <div id="apps-page" class="page-section">
-        <div class="top-nav">
-            <button class="back-btn" onclick="navigateTo('home')">
-                <i class="fas fa-home"></i> الرئيسية
-            </button>
-            <h2 id="category-title" class="category-title">تطبيقات</h2>
+    <div class="container">
+        <div class="search-section">
+            <i class="fas fa-search search-icon"></i>
+            <input type="text" id="search" class="search-input" placeholder="ابحث عن تطبيق...">
         </div>
 
-        <div class="search-container">
-            <input type="text" id="app-search" class="search-input" placeholder="ابحث عن تطبيق باسمه..." dir="rtl">
-        </div>
-
-        <div id="loading-spinner" class="loader" style="display:none;"></div>
-
-        <div id="apps-grid" class="apps-grid">
-            <!-- المحتوى البرمجي يظهر هنا -->
-        </div>
+        <div class="categories-grid" id="cats"></div>
+        <div class="apps-grid" id="grid"></div>
     </div>
 
     <script src="script.js"></script>
 </body>
 </html>
-
