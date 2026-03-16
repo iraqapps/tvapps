@@ -1,5 +1,18 @@
 [
     {
+        "name": "Cinemana ( CBOX )",
+        "version": "v 4.5.9",
+        "image": "https:\/\/raw.githubusercontent.com\/iraqapps\/tvapps\/refs\/heads\/main\/img\/cinemana.png",
+        "category": "العراق",
+        "download1": "https:\/\/github.com\/iraqapps\/tvapps\/raw\/refs\/heads\/main\/apps\/Cinemana_Leanback_v4.5.9.apk",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": "",
+        "username": "",
+        "password": "",
+        "activation_code": ""
+    },
+    {
         "name": "1 IRAQ TV",
         "version": "v 1",
         "image": "https:\/\/raw.githubusercontent.com\/iraqapps\/tvapps\/refs\/heads\/main\/img\/1_iraq_tv.png",
@@ -18,19 +31,6 @@
         "image": "https:\/\/raw.githubusercontent.com\/iraqapps\/tvapps\/refs\/heads\/main\/img\/superiq.png",
         "category": "رياضة",
         "download1": "https:\/\/raw.githubusercontent.com\/iraqapps\/tvapps\/refs\/heads\/main\/apps\/superiqtv_v1.apk",
-        "button1": "تحميل",
-        "download2": "",
-        "button2": "",
-        "username": "",
-        "password": "",
-        "activation_code": ""
-    },
-    {
-        "name": "Cinemana ( CBOX )",
-        "version": "v 4.5.4",
-        "image": "https:\/\/raw.githubusercontent.com\/iraqapps\/tvapps\/refs\/heads\/main\/img\/cinemana.png",
-        "category": "العراق",
-        "download1": "https:\/\/raw.githubusercontent.com\/iraqapps\/tvapps\/refs\/heads\/main\/apps\/cinemana_leanback_last.apk",
         "button1": "تحميل",
         "download2": "",
         "button2": "",
