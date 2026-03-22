@@ -26,6 +26,19 @@
         "activation_code": ""
     },
     {
+        "name": "Cinemana Plus",
+        "version": "v 0.0.4",
+        "image": "https:\/\/raw.githubusercontent.com\/iraqapps\/tvapps\/refs\/heads\/main\/img\/cinemanaplus.png",
+        "category": "العراق",
+        "download1": "https://www.mediafire.com/file/d2v1xobzf0g2d9r/CinemanaPlusTv+0.0.4.apk/file",
+        "button1": "تحميل",
+        "download2": "",
+        "button2": "",
+        "username": "",
+        "password": "",
+        "activation_code": ""
+    },
+    {
         "name": "Super IQ",
         "version": "v 1",
         "image": "https:\/\/raw.githubusercontent.com\/iraqapps\/tvapps\/refs\/heads\/main\/img\/superiq.png",
@@ -213,19 +226,6 @@
         "image": "https:\/\/raw.githubusercontent.com\/iraqapps\/tvapps\/refs\/heads\/main\/img\/1001.png",
         "category": "العراق",
         "download1": "https:\/\/raw.githubusercontent.com\/iraqapps\/tvapps\/refs\/heads\/main\/apps\/1001.apk",
-        "button1": "تحميل",
-        "download2": "",
-        "button2": "",
-        "username": "",
-        "password": "",
-        "activation_code": ""
-    },
-    {
-        "name": "Cinemana Plus",
-        "version": "v",
-        "image": "https:\/\/raw.githubusercontent.com\/iraqapps\/tvapps\/refs\/heads\/main\/img\/cinemanaplus.png",
-        "category": "العراق",
-        "download1": "https:\/\/raw.githubusercontent.com\/iraqapps\/tvapps\/refs\/heads\/main\/apps\/cinemanaplustv.apk",
         "button1": "تحميل",
         "download2": "",
         "button2": "",
